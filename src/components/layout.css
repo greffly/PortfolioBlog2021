@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  background-color: rgb(245, 245, 245);
+}
+
+h1 {
+  font-size: 1.8em;
+  font-family: "Bellota Text", cursive;
+  color: rgb(92, 91, 91);
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.tagline {
+  font-size: 1.5em;
+}
+
+hr {
+  background-color: rgba(116, 177, 177, 0.842);
+  border: none;
+  margin-bottom: 7%;
+}
+
+@keyframes navAnimation {
+  0% {
+    transform: scale(0.1, 0.1) translateY(-150%);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0%);
+  }
+}
+
+.speakerLinks {
+  color: rgb(23, 104, 110);
+}
+
+.speakerLinks:hover {
+  color: black;
+}
+
+p,
+.contactBlurb {
+  line-height: 22px;
+  margin: 10px 5px;
+}
+
+.active {
+  font-size: 1.4em;
+}
+
+button {
+  font-size: 0.9em;
+  padding: 0;
+}
+
+.pageLink:hover,
+.resumeLink:hover {
+  font-size: 1.2em;
+  color: black;
+  transition: 0.5s;
+}
+
+.homePage {
+  height: 100vh;
+  background-image: url("../images/geo.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 80%;
+  position: relative;
+  z-index: -1;
+}
+
+.pinkTheme {
+  /* this should toggle a different theme color */
+  height: 30px;
+  width: 30px;
+  background-color: pink;
+  cursor: pointer;
+  position: absolute;
+  bottom: 6.5%;
+  right: 2%;
+  z-index: 100;
+}
+
+.overlay {
+  background-image: linear-gradient(
+    to right,
+    rgb(23, 104, 110),
+    rgb(23, 104, 110, 0.7)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.titleSection {
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+  padding-top: 16%;
+  margin: 0 0 9% 7%;
+}
+
+.titleLine {
+  margin: 0;
+  color: white;
+  text-align: left;
+  font-size: 4.5em;
+  position: relative;
+  animation: nameAnimation 1s ease-in;
+}
+
+.tagline {
+  color: white;
+}
+
+.outline {
+  padding: 2%;
+  border: 3px solid #17686e;
+  background-color: white;
+  margin: 3%;
+  text-align: left;
+}
+
+.aboutPage {
+  padding: 8%;
+}
+
+.contactInfo {
+  padding: 3%;
+}
+
+.contact {
+  padding: 4%;
+  width: 100%;
+  text-decoration: none;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.buttonIcon {
+  height: 35px;
+  width: 35px;
+  background: none;
+}
+
+@media screen and (min-width: 760px) {
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 2.6em;
+  }
+
+  .homePage {
+    background-repeat: repeat;
+    background-size: 100%;
+  }
+
+  .titleSection {
+    margin: 0 0 3% 4%;
+  }
+
+  .titleLine {
+    margin: 0;
+    font-size: 7em;
+  }
+
+  .outline {
+    text-align: center;
+  }
+
+  .aboutPage {
+    font-size: 1.5em;
+    line-height: 1.1em;
+    padding: 3% 8% 8% 8%;
+    margin-top: 5%;
+  }
+
+  p {
+    font-size: 0.8em;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .icon {
+    height: 60px;
+    width: 60px;
+  }
+
+  .contactInfo {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}

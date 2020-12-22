@@ -1,0 +1,27 @@
+.post {
+  margin: 80px;
+  padding: 80px;
+  border: 2px solid #17686e;
+}
+
+.postTitle {
+  font-size: 2em;
+  margin: 0;
+}
+
+.postDescription {
+  font-size: 1.2em;
+}
+
+.postAuthor {
+  font-size: 1em;
+}
+
+.post a {
+  background-color: #17686e;
+  color: white;
+  padding: 16px 24px;
+  text-decoration: none;
+  margin-top: 16px;
+  display: inline-block;
+}
