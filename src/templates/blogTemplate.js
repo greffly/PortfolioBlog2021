@@ -13,9 +13,12 @@ export default function Template({ data }) {
     <Layout>
       <div className='blogTemplate'>
         <Link to='/blog'>Back to blogs</Link>
-        <h1 className='blogTemplate-title'>{title}</h1>
-        <p className='blogTemplate-posted-by'>{date}</p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <h1 className='blogTemplateTitle'>{title}</h1>
+        <p className='blogTemplateDate'>{date}</p>
+        <div
+          className='blogBody'
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
       </div>
     </Layout>
   );

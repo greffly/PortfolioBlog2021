@@ -1,10 +1,10 @@
 ---
-path: "/why-no-cs-degree-is-awesome"
-date: "2019-11-05"
-title: "Why Not Having a CS Degree is Awesome"
-slug: "cs degree"
-author: "Caitlyn Greffly"
-description: "No matter what field you came from, youll have a unique skill set you can offer your future employer."
+path: '/why-no-cs-degree-is-awesome'
+date: '2019-11-05'
+title: 'Why Not Having a CS Degree is Awesome'
+slug: 'cs degree'
+author: 'Caitlyn Greffly'
+description: 'No matter what field you came from, youll have a unique skill set you can offer your future employer.'
 ---
 
 I didn't know what I wanted to do for a career when I was 18, and I feel okay about that. I also shouldn't have been trusted to pick a romantic life partner at that age (sorry Steve from the pirate-themed frat party). It's wild to see so many job postings ask for a specific kind of degree. Your employer is saying that one of the requirements for the job is for you to have always wanted to do this kind of work, since you were a freshman in college and decided on your major while nursing a hangover and clutching a jar of Nutella (or was that just me?).
@@ -23,4 +23,4 @@ If you get your education through a bootcamp, you are also going to be learning 
 
 As a new developer, it can be easy to let your imposter syndrome get the best of you because you feel inferior to those with a more traditional degree. You may see job postings that say they'd prefer a candidate with a CS degree, and not even apply for those jobs. But instead, how about you march up to that employer and tell them all the awesome skills that you bring to the table because you have a different background. Don't feel bad that you majored in Basket Weaving or joined the workforce straight out of high school. 18-year-old you did what made sense at the time, and current you is older and wiser and killin' it.
 
-![Man in a suit riding a dolphin](https://media.giphy.com/media/3osxY3V7tDf01wyFNK/giphy.gif)
+<img align="center" width="70%" src="https://media.giphy.com/media/3osxY3V7tDf01wyFNK/giphy.gif" alt="Man in a suit riding a dolphin"/>

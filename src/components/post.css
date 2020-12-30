@@ -1,7 +1,10 @@
 .post {
-  margin: 80px;
-  padding: 80px;
-  border: 2px solid #17686e;
+  margin: 40px;
+  padding: 40px;
+  /* border: 5px solid #074f67; */
+  overflow: hidden;
+  background-color: white;
+  text-align: left;
 }
 
 .postTitle {
@@ -9,19 +12,82 @@
   margin: 0;
 }
 
-.postDescription {
-  font-size: 1.2em;
+.post:hover .divider {
+  width: 80%;
+  transition: width 0.4s;
 }
 
-.postAuthor {
+.divider {
+  margin: 30px 0;
+  width: 85px;
+  height: 3px;
+  border: none;
+}
+
+.post:nth-child(3n + 1) .divider {
+  background: #67094e;
+}
+
+.post:nth-child(3n + 2) .divider {
+  background: #de9932;
+}
+
+.post:nth-child(3n + 3) .divider {
+  background: #05878a;
+}
+
+/* .post:nth-child(4) .divider {
+  background: #5a185d;
+}
+
+.post:nth-child(5) .divider {
+  background: #074f67;
+} */
+
+.postDescription {
   font-size: 1em;
+  line-height: normal;
+  text-align: left;
+}
+
+.postDate {
+  font-size: 1em;
+  text-align: left;
 }
 
 .post a {
-  background-color: #17686e;
   color: white;
-  padding: 16px 24px;
+  width: 138px;
+  height: 43px;
+  margin-top: 15px;
+  padding: 10px 0;
+  text-align: center;
   text-decoration: none;
-  margin-top: 16px;
   display: inline-block;
+  z-index: 99;
 }
+
+.post a:hover {
+  opacity: 0.8;
+  transition: all 1s;
+}
+
+.post:nth-child(3n + 1) a {
+  background-color: #67094e;
+}
+
+.post:nth-child(3n + 2) a {
+  background-color: #de9932;
+}
+
+.post:nth-child(3n + 3) a {
+  background-color: #05878a;
+}
+
+/* .post:nth-child(4n) a {
+  background-color: #5a185d;
+}
+
+.post:nth-child(5n) a {
+  background-color: #074f67;
+} */

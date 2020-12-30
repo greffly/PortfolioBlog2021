@@ -1,45 +1,45 @@
-import React from "react"
-import { Link } from "gatsby"
-import "./layout.css"
-import "./nav.css"
+import React from 'react';
+import { Link } from 'gatsby';
+import './layout.css';
+import './nav.css';
 
 const Nav = () => (
-  <nav className="menu">
-    <ul className="navigationBar">
-      <li className="navItem">
+  <nav className='menu'>
+    <ul className='navigationBar'>
+      <li className='navItem'>
         <Link
-          activeStyle={{ color: "#FFECDB", borderBottom: "2px solid #FFECDB" }}
-          to="/"
+          activeStyle={{ color: '#FFECDB', borderBottom: '2px solid #FFECDB' }}
+          to='/'
         >
-          Home
+          HOME
         </Link>
       </li>
-      <li className="navItem">
+      <li className='navItem'>
         <Link
-          activeStyle={{ color: "#FFECDB", borderBottom: "2px solid #FFECDB" }}
-          to="/about"
+          activeStyle={{ color: '#FFECDB', borderBottom: '2px solid #FFECDB' }}
+          to='/about'
         >
-          About
+          ABOUT
         </Link>
       </li>
-      <li className="navItem">
+      <li className='navItem'>
         <Link
-          activeStyle={{ color: "#FFECDB", borderBottom: "2px solid #FFECDB" }}
-          to="/blog"
+          activeStyle={{ color: '#FFECDB', borderBottom: '2px solid #FFECDB' }}
+          to='/blog'
         >
-          Blog
+          BLOG
         </Link>
       </li>
-      <li className="navItem">
+      <li className='navItem'>
         <Link
-          activeStyle={{ color: "#FFECDB", borderBottom: "2px solid #FFECDB" }}
-          to="/contact"
+          activeStyle={{ color: '#FFECDB', borderBottom: '2px solid #FFECDB' }}
+          to='/contact'
         >
-          Contact
+          CONTACT
         </Link>
       </li>
     </ul>
   </nav>
-)
+);
 
-export default Nav
+export default Nav;

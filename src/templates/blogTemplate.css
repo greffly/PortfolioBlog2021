@@ -1,15 +1,24 @@
 .blogTemplate {
-  padding: 2% 10%;
+  padding: 2% 14%;
 }
 
-.blogTemplate .blogTemplate-title {
+.blogTemplateTitle {
   margin: 80px 0 24px;
+  color: black;
 }
 
-.blogTemplate .blogTemplate-posted-by {
+.blogTemplateDate {
   font-size: 1.2em;
 }
 
 .blogTemplate a {
   color: #fff;
+}
+
+.blogBody p {
+  font-size: 1.1em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  line-height: 1.5em;
+  margin: 3% 0;
 }
