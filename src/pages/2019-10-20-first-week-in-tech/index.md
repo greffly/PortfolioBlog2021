@@ -1,10 +1,10 @@
 ---
 path: '/my-first-week-in-tech'
-date: '2019-10-20'
+date: 'October 20th, 2019'
 title: 'My First Week in Tech'
 slug: 'first-week'
 author: 'Caitlyn Greffly'
-description: "There I was, adjusting my new blue light glasses while sitting at my cubicle, and trying to answer the question 'So you/'re the new engineer right?' with a straight face. I felt a bit like I was role-playing someone else/'s life, but I wasn't."
+description: "There I was, adjusting my new blue light glasses while sitting at my cubicle, and trying to answer the question 'So you're the new engineer right?' with a straight face. I felt a bit like I was role-playing someone else's life, but I wasn't."
 ---
 
 Four months ago, I was sitting amongst my colleagues in the beer industry, bro-ing out over the hottest barrel-aged beer and discussing profit margins on our newest can package. This week, I found myself on the 7th floor of an office building, adjusting my new blue light glasses while sitting at my cubicle, and trying to answer the question "So you're the new engineer right?" with a straight face. I felt a bit like I was role-playing someone else's life.

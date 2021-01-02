@@ -8,7 +8,9 @@
 }
 
 .blogTemplateDate {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 1.5em;
 }
 
 .blogTemplate a {
@@ -16,9 +18,22 @@
 }
 
 .blogBody p {
-  font-size: 1.1em;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
   line-height: 1.5em;
-  margin: 3% 0;
+  margin: 0 0 4%;
+}
+
+.blogBody h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.blogBody h2 {
+  margin: 0 0 2%;
+  font-size: 28px;
+}
+
+.blogBody img {
+  margin-bottom: 20px;
 }

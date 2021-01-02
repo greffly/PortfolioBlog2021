@@ -17,7 +17,7 @@ const Nav = () => (
       <li className='navItem'>
         <Link
           activeStyle={{ color: '#FFECDB', borderBottom: '2px solid #FFECDB' }}
-          to='/about'
+          to='/#about'
         >
           ABOUT
         </Link>

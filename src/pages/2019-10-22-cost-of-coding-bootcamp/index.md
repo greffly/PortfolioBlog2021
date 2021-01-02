@@ -1,10 +1,10 @@
 ---
 path: '/cost-of-a-coding-bootcamp'
-date: '2019-10-22'
+date: 'October 22, 2019'
 title: 'The Cost of a Coding Bootcamp'
 slug: 'bootcamp-cost'
 author: 'Caitlyn Greffly'
-description: "Before and after I went through my bootcamp, I spent some time weighing the costs and financial benefits of a coding bootcamp. Here/'s what I found."
+description: "Before and after I went through my bootcamp, I spent some time weighing the costs and financial benefits of a coding bootcamp. Here's what I found."
 ---
 
 When I was researching coding bootcamps, one of the scariest parts was the cost. 10k, 20k, even 30k, how could I possibly afford that? Not to mention if it was a full-time on-campus program, I wouldn't be able to keep my job. But on the other hand, how do you put a price on leaving a job that makes you unhappy to find a more satisfying career?

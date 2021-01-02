@@ -13,12 +13,15 @@ body {
 
 h1 {
   font-size: 1.8em;
-  font-family: 'Bellota Text', cursive;
   color: rgb(92, 91, 91);
 }
 
 h2 {
   font-size: 1.2em;
+}
+
+.titleLine {
+  font-family: 'Bellota Text', cursive;
 }
 
 .tagline {
@@ -79,18 +82,6 @@ button {
   background-size: 80%;
   position: relative;
   z-index: -1;
-}
-
-.pinkTheme {
-  /* this should toggle a different theme color */
-  height: 30px;
-  width: 30px;
-  background-color: pink;
-  cursor: pointer;
-  position: absolute;
-  bottom: 6.5%;
-  right: 2%;
-  z-index: 100;
 }
 
 .overlay {
@@ -206,11 +197,6 @@ button {
     font-size: 0.8em;
     line-height: 40px;
     text-align: center;
-  }
-
-  .icon {
-    height: 60px;
-    width: 60px;
   }
 
   .contactInfo {

@@ -1,0 +1,25 @@
+footer {
+  padding: 2% 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  overflow: none;
+  justify-content: flex-end;
+}
+
+.createdBy {
+  margin-right: auto;
+  margin-left: 40px;
+  line-height: 54px;
+  /* padding: 2% 0; */
+}
+
+.footer {
+  margin-right: 40px;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+}

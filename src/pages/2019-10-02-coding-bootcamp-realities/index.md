@@ -1,10 +1,10 @@
 ---
-path: "/coding-bootcamp-realities"
-date: "2019-10-02"
-title: "Coding Bootcamp Realities"
-slug: "bootcamp"
-author: "Caitlyn Greffly"
-description: "As someone who recently spent 6.5 months in a coding bootcamp, I can say I definitely *thought* I knew what I was getting myself into. I was wrong."
+path: '/coding-bootcamp-realities'
+date: 'October 2nd, 2019'
+title: 'Coding Bootcamp Realities'
+slug: 'bootcamp'
+author: 'Caitlyn Greffly'
+description: 'As someone who recently spent 6.5 months in a coding bootcamp, I can say I definitely thought I knew what I was getting myself into. I was wrong.'
 ---
 
 I recently spent 6.5 months in a coding bootcamp, which probably sounds like a shorter time period than it felt like. I definitely _thought_ I knew what I was getting myself into (thought being the operative word). I did my research and knew I was driven enough to push myself, but there are some realities I wasn't totally prepared to face. So I'm sharing them with you, in case you decide to embark on the same journey.
