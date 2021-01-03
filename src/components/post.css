@@ -1,7 +1,13 @@
+:root {
+  --mainTeal: #074f67;
+  --purple: #67094e;
+  --mustard: #de9932;
+  --lightTeal: #05878a;
+}
+
 .post {
   margin: 40px;
   padding: 40px;
-  /* border: 5px solid #074f67; */
   overflow: hidden;
   background-color: white;
   text-align: left;
@@ -25,27 +31,19 @@
 }
 
 .post:nth-child(3n + 1) .divider {
-  background: #67094e;
+  background: var(--purple);
 }
 
 .post:nth-child(3n + 2) .divider {
-  background: #de9932;
+  background: var(--mustard);
 }
 
 .post:nth-child(3n + 3) .divider {
-  background: #05878a;
+  background: var(--lightTeal);
 }
-
-/* .post:nth-child(4) .divider {
-  background: #5a185d;
-}
-
-.post:nth-child(5) .divider {
-  background: #074f67;
-} */
 
 .postDescription {
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: normal;
   text-align: left;
 }
@@ -61,6 +59,7 @@
   height: 43px;
   margin-top: 15px;
   padding: 10px 0;
+  font-size: 1.1em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -73,21 +72,13 @@
 }
 
 .post:nth-child(3n + 1) a {
-  background-color: #67094e;
+  background: var(--purple);
 }
 
 .post:nth-child(3n + 2) a {
-  background-color: #de9932;
+  background: var(--mustard);
 }
 
 .post:nth-child(3n + 3) a {
-  background-color: #05878a;
+  background: var(--lightTeal);
 }
-
-/* .post:nth-child(4n) a {
-  background-color: #5a185d;
-}
-
-.post:nth-child(5n) a {
-  background-color: #074f67;
-} */

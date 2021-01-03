@@ -112,10 +112,6 @@
   transform: translate3d(0, 0, 0);
 }
 
-.menu .navItem.current > a {
-  color: #ffe6ff;
-}
-
 .menu .pageLink,
 .menu .resumeLink {
   display: inline-block;

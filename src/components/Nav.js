@@ -7,36 +7,16 @@ const Nav = () => (
   <nav className='menu'>
     <ul className='navigationBar'>
       <li className='navItem'>
-        <Link
-          activeStyle={{ color: '#FFECDB', borderBottom: '2px solid #FFECDB' }}
-          to='/'
-        >
-          HOME
-        </Link>
+        <Link to='/'>Home</Link>
       </li>
       <li className='navItem'>
-        <Link
-          activeStyle={{ color: '#FFECDB', borderBottom: '2px solid #FFECDB' }}
-          to='/#about'
-        >
-          ABOUT
-        </Link>
+        <Link to='/#about'>About</Link>
       </li>
       <li className='navItem'>
-        <Link
-          activeStyle={{ color: '#FFECDB', borderBottom: '2px solid #FFECDB' }}
-          to='/blog'
-        >
-          BLOG
-        </Link>
+        <Link to='/blog'>Blog</Link>
       </li>
       <li className='navItem'>
-        <Link
-          activeStyle={{ color: '#FFECDB', borderBottom: '2px solid #FFECDB' }}
-          to='/contact'
-        >
-          CONTACT
-        </Link>
+        <Link to='/contact'>Contact</Link>
       </li>
     </ul>
   </nav>

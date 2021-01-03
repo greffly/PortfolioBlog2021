@@ -1,6 +1,7 @@
 ---
 path: '/my-first-week-in-tech'
-date: 'October 20th, 2019'
+printdate: 'October 20th, 2019'
+date: '10-20-2019'
 title: 'My First Week in Tech'
 slug: 'first-week'
 author: 'Caitlyn Greffly'

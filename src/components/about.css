@@ -1,0 +1,56 @@
+.aboutSection {
+  padding: 2%;
+  background-color: white;
+  margin: 3%;
+  text-align: left;
+}
+
+.talkSection,
+.podcastSection {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 80px auto;
+  margin-bottom: 20px;
+}
+
+.aboutTitle {
+  grid-column: 1;
+  font-size: 1.4em;
+  color: var(--mustard);
+  text-align: right;
+  margin-top: 25px;
+}
+
+.aboutList {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+}
+
+.aboutList li {
+  margin: 15px 0;
+}
+
+.underline {
+  grid-column: 1;
+  background: var(--mustard);
+  margin: 0;
+  width: 85px;
+  height: 3px;
+  border: none;
+  display: flex;
+  justify-self: flex-end;
+}
+
+.podcastSection:hover .underline,
+.talkSection:hover .underline {
+  width: 80%;
+  transition: width 0.4s;
+}
+
+.reachOutBlurb {
+  font-size: 0.9em;
+  padding: 0 8%;
+}

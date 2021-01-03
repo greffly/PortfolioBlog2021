@@ -1,6 +1,7 @@
 ---
 path: '/cost-of-a-coding-bootcamp'
-date: 'October 22, 2019'
+printdate: 'October 22, 2019'
+date: '10-22-2019'
 title: 'The Cost of a Coding Bootcamp'
 slug: 'bootcamp-cost'
 author: 'Caitlyn Greffly'

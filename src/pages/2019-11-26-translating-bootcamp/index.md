@@ -1,6 +1,7 @@
 ---
 path: '/translating-bootcamp-to-real-dev-job'
-date: 'November 26th, 2019'
+printdate: 'November 26th, 2019'
+date: '11-26-2019'
 title: 'Translating Bootcamp to Real Dev Job'
 slug: 'translating-bootcamp'
 author: 'Caitlyn Greffly'

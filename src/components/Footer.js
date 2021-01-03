@@ -36,7 +36,6 @@ const Footer = () => (
         </a>
       </li>
     </ul>
-    <section className='displayInfo' role='contentinfo'></section>
   </footer>
 );
 

@@ -12,6 +12,7 @@ const Blog = ({ data }) => (
           title,
           author,
           date,
+          printdate,
           description,
           path,
         } = post.node.frontmatter;
@@ -20,6 +21,7 @@ const Blog = ({ data }) => (
             title={title}
             author={author}
             date={date}
+            printdate={printdate}
             description={description}
             key={`${date}__${title}`}
             path={path}
@@ -34,11 +36,12 @@ export default Blog;
 
 export const AllBlogQuery = graphql`
   query AllBlogPosts {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
       edges {
         node {
           frontmatter {
             date
+            printdate
             title
             author
             description

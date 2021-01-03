@@ -7,14 +7,14 @@ import './blogTemplate.css';
 
 export default function Template({ data }) {
   const post = data.markdownRemark;
-  const { title, date } = post.frontmatter;
+  const { title, printdate } = post.frontmatter;
 
   return (
     <Layout>
       <div className='blogTemplate'>
         <Link to='/blog'>Back to blogs</Link>
         <h1 className='blogTemplateTitle'>{title}</h1>
-        <p className='blogTemplateDate'>{date}</p>
+        <p className='blogTemplateDate'>{printdate}</p>
         <div
           className='blogBody'
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -30,6 +30,7 @@ export const postQuery = graphql`
       frontmatter {
         author
         date
+        printdate
         title
         path
       }

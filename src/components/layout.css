@@ -75,7 +75,7 @@ button {
 
 .homePage {
   height: 100vh;
-  background-image: url('../images/geo.jpeg');
+  background-image: url('/images/geo.jpeg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -117,18 +117,6 @@ button {
 
 .tagline {
   color: white;
-}
-
-.outline {
-  padding: 2%;
-  border: 3px solid #17686e;
-  background-color: white;
-  margin: 3%;
-  text-align: left;
-}
-
-.aboutPage {
-  padding: 8%;
 }
 
 .contactInfo {
