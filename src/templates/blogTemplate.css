@@ -1,5 +1,17 @@
 .blogTemplate {
-  padding: 2% 14%;
+  padding: 5% 14%;
+}
+
+.backToBlogs {
+  position: absolute;
+  top: 110px;
+  left: 25px;
+  font-size: 1.1em;
+  color: var(--purple);
+}
+
+.backToBlogs:hover {
+  color: var(--mainTeal);
 }
 
 .blogTemplateTitle {
@@ -11,6 +23,7 @@
   font-size: 1.3em;
   font-family: 'Source Sans Pro', sans-serif;
   margin-bottom: 1.5em;
+  text-align: center;
 }
 
 .blogTemplate a {
@@ -35,5 +48,16 @@
 }
 
 .blogBody img {
-  margin-bottom: 20px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.share {
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 50px;
+}
+
+.share a:hover {
+  color: var(--mainTeal);
 }

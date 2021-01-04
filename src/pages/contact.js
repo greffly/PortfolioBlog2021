@@ -3,9 +3,9 @@ import Layout from '../components/Layout';
 
 const Contact = () => (
   <Layout>
-    <section className='contact' role='listbox'>
+    {/* <section className='contact' role='listbox'>
       <h1>Get in Touch</h1>
-    </section>
+    </section> */}
   </Layout>
 );
 

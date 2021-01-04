@@ -48,7 +48,7 @@ Bootcamp: You just learned React last week so this week you will write an entire
 Real Dev Job: Because your time is not only made for writing code, but all the other things I've mentioned, the pace is a bit slower. This sprint you might only have one or two tickets to work on. They might be seemingly simple, like adding an error message for when a user tries to do something stupid. But when you're new, nothing is as easy and straight forward as it seems. Hopefully you are on a team that understands and supports that pace.
 
 <h2 className="blogSubtitle">Money</h2>
-<img align="center" width="60%" src="https://imgflip.com/i/3hmgwd" alt="Parks and Rec woman saying money please"/>
+<img align="center" width="60%" src="https://memegenerator.net/img/instances/71900796.jpg" alt="Parks and Rec woman saying money please"/>
 
 Bootcamp: Maybe you are a badass continuing to work while you put yourself through bootcamp, but if you're like me and thought that seemed impossible, you might have been feeling the financial strain. Buying an almond milk latte suddenly seems like a treat yoself moment for the elite.
 

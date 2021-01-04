@@ -50,7 +50,13 @@
   transition: width 0.4s;
 }
 
+#contact {
+  font-size: 1.4em;
+  color: black;
+  margin-top: 100px;
+}
+
 .reachOutBlurb {
-  font-size: 0.9em;
+  font-size: 0.8em;
   padding: 0 8%;
 }
