@@ -1,3 +1,12 @@
+@keyframes navAnimation {
+  0% {
+    transform: scale(0.1, 0.1) translateY(-150%);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0%);
+  }
+}
+
 #nav-line {
   margin-bottom: 0;
   margin-top: 60px;
@@ -62,28 +71,25 @@
   width: 100%;
   opacity: 1;
   visibility: hidden;
+  animation: navAnimation 0.5s ease-out;
 }
 
 .menu.show {
   visibility: visible;
-}
-
-.navigationBar {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
+  transition: all 0.5s ease-out;
 }
 
 .navigationBar {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100vh;
   background: #17686e;
   color: #fff;
   list-style: none;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
 }
@@ -93,18 +99,21 @@
   z-index: 99;
 }
 
-.menu .navItem {
+.navItem {
   transform: translate3d(300px, 0, 0);
   transition: all 0.5s ease-out;
   z-index: 99;
+  font-size: 2em;
+  line-height: 2em;
 }
 
-.menu .navItem.show {
+.navItem.show {
+  transition: all 0.5s ease-out;
   transform: translate3d(0, 0, 0);
 }
 
 .menu .navItem.current > a {
-  color: #ffe6ff;
+  color: var(--mustard);
 }
 
 .navItem:nth-child(1) {
@@ -183,10 +192,8 @@ button a {
     z-index: 99;
   }
 
-  .menu .navItem {
-    transform: translate3d(300px, 0, 0);
-    transition: all 0.5s ease-out;
-    z-index: 99;
+  .navItem {
+    font-size: 1.1em;
   }
 
   .menu .navItem.show {

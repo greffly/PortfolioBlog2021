@@ -1,83 +1,80 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import './nav.css';
+import ResumePdf from './CaitlynGrefflyResume.pdf';
 
-function Nav() {
-  // const menuButton = document.querySelector('.menuButton');
-  // const menu = document.querySelector('.menu');
-  // const menuNav = document.querySelector('.navigationBar');
-  // const navItems = document.querySelectorAll('.navItem');
+class Nav extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      menuOpen: true,
+    };
+  }
 
-  // let showMenu = false;
-  // menuButton.addEventListener('click', toggleMenu);
+  navItem = 'navItem';
+  menuButton = 'menuButton';
+  menu = 'menu';
+  navigationBar = 'navigationBar';
 
-  // function toggleMenu() {
-  //   if (!showMenu) {
-  //     menuButton.classList.add('close');
-  //     menu.classList.add('show');
-  //     menuNav.classList.add('show');
-  //     navItems.forEach((item) => item.classList.add('show'));
-  //     showMenu = true;
-  //   } else {
-  //     menuButton.classList.remove('close');
-  //     menu.classList.remove('show');
-  //     menuNav.classList.remove('show');
-  //     navItems.forEach((item) => item.classList.remove('show'));
-  //     showMenu = false;
-  //   }
-  // }
+  handleMenuVisibility() {
+    this.setState({ menuOpen: !this.state.menuOpen });
+    if (this.state.menuOpen) {
+      this.navItem = 'navItem show';
+      this.menuButton = 'menuButton close';
+      this.menu = 'menu show';
+      this.navigationBar = 'navigationBar show';
+      console.log('opening menu!', this.state.menuOpen);
+    } else {
+      this.navItem = 'navItem';
+      this.menuButton = 'menuButton';
+      this.menu = 'menu';
+      this.navigationBar = 'navigationBar';
+      console.log('closing!', this.navigationBar);
+    }
+  }
 
-  // $('nav')
-  //   .find('.pageLink')
-  //   .click(function(e) {
-  //     menuButton.classList.remove('close');
-  //     menu.classList.remove('show');
-  //     menuNav.classList.remove('show');
-  //     navItems.forEach((item) => item.classList.remove('show'));
-  //     showMenu = false;
-  //     let section = $(this).attr('href');
-  //     $('html, body').animate({
-  //       scrollTop: $(section).offset().top,
-  //     });
-  //   });
+  handleLinkClick() {
+    this.setState({ menuOpen: false });
+    this.handleMenuVisibility();
+  }
 
-  return (
-    <div>
-      <div class='navBarMobile'>
-        <div class='menuButton'>
-          <div class='btn-line'></div>
-          <div class='btn-line'></div>
-          <div class='btn-line'></div>
+  render() {
+    return (
+      <div>
+        <div className='navBarMobile'>
+          <div
+            className={this.menuButton}
+            onClick={() => this.handleMenuVisibility()}
+          >
+            <div className='btn-line'></div>
+            <div className='btn-line'></div>
+            <div className='btn-line'></div>
+          </div>
         </div>
+        <nav className={this.menu} open={this.state.menuOpen}>
+          <ul className={this.navigationBar}>
+            <li className={this.navItem} onClick={() => this.handleLinkClick()}>
+              <Link to='/'>Home</Link>
+            </li>
+            <li className={this.navItem} onClick={() => this.handleLinkClick()}>
+              <Link to='/#about'>About</Link>
+            </li>
+            <li className={this.navItem} onClick={() => this.handleLinkClick()}>
+              <Link to='/blog'>Blog</Link>
+            </li>
+            <li className={this.navItem} onClick={() => this.handleLinkClick()}>
+              <a href={ResumePdf} target='_blank'>
+                Resume
+              </a>
+            </li>
+            <li className={this.navItem} onClick={() => this.handleLinkClick()}>
+              <Link to='/#contact'>Contact</Link>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav className='menu'>
-        <ul className='navigationBar'>
-          <li className='navItem'>
-            <Link to='/'>Home</Link>
-          </li>
-          <li className='navItem'>
-            <Link to='/#about'>About</Link>
-          </li>
-          <li className='navItem'>
-            <Link to='/blog'>Blog</Link>
-          </li>
-          <li class='navItem'>
-            <a
-              href='CaitlynGrefflyResume.pdf'
-              class='resumeLink'
-              target='_blank'
-              rel='noopener'
-            >
-              Resume
-            </a>
-          </li>
-          <li className='navItem'>
-            <Link to='/#contact'>Contact</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  );
+    );
+  }
 }
 
 export default Nav;

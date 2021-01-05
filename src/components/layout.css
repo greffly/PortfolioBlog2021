@@ -27,7 +27,10 @@ h2 {
 
 .tagline {
   font-size: 1.5em;
+  line-height: 1.4em;
   text-align: left;
+  color: white;
+  padding-right: 2%;
 }
 
 hr {
@@ -98,10 +101,6 @@ button {
   font-size: 4.5em;
   position: relative;
   animation: nameAnimation 1s ease-in;
-}
-
-.tagline {
-  color: white;
 }
 
 .contactInfo {
