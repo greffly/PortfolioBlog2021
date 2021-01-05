@@ -56,11 +56,6 @@ hr {
   font-size: 1.4em;
 }
 
-button {
-  font-size: 0.9em;
-  padding: 0;
-}
-
 .homePage {
   height: 100vh;
   background-image: url('/images/geo.jpeg');
@@ -103,25 +98,10 @@ button {
   animation: nameAnimation 1s ease-in;
 }
 
-.contactInfo {
-  padding: 3%;
-}
-
 .contact {
   padding: 4%;
   width: 100%;
   text-decoration: none;
-}
-
-.icon {
-  height: 30px;
-  width: 30px;
-}
-
-.buttonIcon {
-  height: 35px;
-  width: 35px;
-  background: none;
 }
 
 .allBlogPosts {
@@ -165,10 +145,5 @@ button {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% repeat(auto-fill);
     background-color: rgb(245, 245, 245);
-  }
-
-  .contactInfo {
-    margin-left: 10%;
-    margin-right: 10%;
   }
 }
