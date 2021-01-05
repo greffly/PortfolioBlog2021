@@ -1,7 +1,7 @@
 ---
 path: '/why-no-cs-degree-is-awesome'
 printdate: 'November 5th, 2019'
-date: '11-05-2019'
+date: '2019-11-05'
 title: 'Why Not Having a CS Degree is Awesome'
 slug: 'cs degree'
 author: 'Caitlyn Greffly'

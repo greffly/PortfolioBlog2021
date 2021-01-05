@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Nav from './Nav';
 import Footer from './Footer';
+import { Helmet } from 'react-helmet';
 import 'fontsource-raleway/300.css';
 import 'fontsource-bellota-text/300.css';
 import 'fontsource-montserrat/300.css';
@@ -10,6 +11,21 @@ import './layout.css';
 
 const Layout = ({ children }) => (
   <div className='layout'>
+    <Helmet>
+      <title>Caitlyn Greffly</title>
+      <meta
+        name='Title'
+        property='og:title'
+        content="Caitlyn Greffly's Website and Blog"
+      />
+      <meta
+        name='description'
+        property='og:description'
+        content='Full Stack Web Developer out of Portland, Oregon'
+      />
+      <meta name='author' content='Caitlyn Greffly' />
+      <meta name='twitter:title' content='Caitlyn Greffly' />
+    </Helmet>
     <Nav />
     <main className='main'>{children}</main>
     <Footer />

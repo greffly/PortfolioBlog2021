@@ -1,7 +1,7 @@
 ---
 path: '/coding-bootcamp-realities'
 printdate: 'October 2nd, 2019'
-date: '10-02-2019'
+date: '2019-10-02'
 title: 'Coding Bootcamp Realities'
 slug: 'bootcamp'
 author: 'Caitlyn Greffly'

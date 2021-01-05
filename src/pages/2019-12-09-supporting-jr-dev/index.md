@@ -1,7 +1,7 @@
 ---
 path: '/how-to-support-the-jr-dev-on-your-team'
 printdate: 'December 9th, 2019'
-date: '12-09-2019'
+date: '2019-12-09'
 title: 'How to Support the Junior Dev on Your Team'
 slug: 'support'
 author: 'Caitlyn Greffly'
