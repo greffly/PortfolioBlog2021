@@ -6,8 +6,8 @@
 }
 
 .post {
-  margin: 40px;
-  padding: 40px;
+  margin: 5%;
+  padding: 6% 4%;
   overflow: hidden;
   background-color: white;
   text-align: left;
@@ -24,7 +24,7 @@
 }
 
 .divider {
-  margin: 30px 0;
+  margin: 15px 0 30px;
   width: 85px;
   height: 3px;
   border: none;
@@ -43,14 +43,14 @@
 }
 
 .postDescription {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1em;
-  line-height: normal;
-  text-align: left;
+  line-height: 1.2em;
 }
 
 .postDate {
-  font-size: 1em;
-  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
 }
 
 .post a {
@@ -67,7 +67,7 @@
 }
 
 .post a:hover {
-  opacity: 0.8;
+  opacity: 0.7;
   transition: all 1s;
 }
 
@@ -81,4 +81,14 @@
 
 .post:nth-child(3n + 3) a {
   background: var(--lightTeal);
+}
+
+@media screen and (min-width: 760px) {
+  .post {
+    margin: 40px;
+    padding: 40px;
+    overflow: hidden;
+    background-color: white;
+    text-align: left;
+  }
 }

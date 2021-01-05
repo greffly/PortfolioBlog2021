@@ -8,18 +8,41 @@ footer {
 }
 
 .createdBy {
-  margin-right: auto;
-  margin-left: 40px;
-  line-height: 54px;
-  /* padding: 2% 0; */
+  visibility: hidden;
+  width: 0;
 }
 
 .footer {
   margin-right: 40px;
+  /* width: 100%; */
 }
 
 .icon {
-  height: 50px;
-  width: 50px;
-  margin: 0 10px;
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+}
+
+@media screen and (min-width: 760px) {
+  footer {
+    padding: 2% 4%;
+  }
+
+  .createdBy {
+    visibility: visible;
+    width: 30%;
+    margin-right: auto;
+    margin-left: 40px;
+    line-height: 54px;
+  }
+
+  .footer {
+    /* width: 60%; */
+  }
+
+  .icon {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+  }
 }

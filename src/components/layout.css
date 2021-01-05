@@ -27,21 +27,13 @@ h2 {
 
 .tagline {
   font-size: 1.5em;
+  text-align: left;
 }
 
 hr {
   background-color: rgba(116, 177, 177, 0.842);
   border: none;
   margin-bottom: 7%;
-}
-
-@keyframes navAnimation {
-  0% {
-    transform: scale(0.1, 0.1) translateY(-150%);
-  }
-  100% {
-    transform: scale(1, 1) translateY(0%);
-  }
 }
 
 .speakerLinks {
@@ -52,7 +44,6 @@ hr {
   color: black;
 }
 
-p,
 .contactBlurb {
   line-height: 22px;
   margin: 10px 5px;
@@ -65,13 +56,6 @@ p,
 button {
   font-size: 0.9em;
   padding: 0;
-}
-
-.pageLink:hover,
-.resumeLink:hover {
-  font-size: 1.2em;
-  color: black;
-  transition: 0.5s;
 }
 
 .homePage {
@@ -141,6 +125,10 @@ button {
   background: none;
 }
 
+.allBlogPosts {
+  margin-top: 80px;
+}
+
 @media screen and (min-width: 760px) {
   body {
     font-size: 18px;
@@ -164,28 +152,20 @@ button {
     font-size: 7em;
   }
 
+  .tagline {
+    text-align: center;
+  }
+
   .outline {
     text-align: center;
   }
 
   .allBlogPosts {
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% repeat(auto-fill);
     background-color: rgb(245, 245, 245);
-  }
-
-  .aboutPage {
-    font-size: 1.5em;
-    line-height: 1.1em;
-    padding: 3% 8% 8% 8%;
-    margin-top: 5%;
-  }
-
-  p {
-    font-size: 0.8em;
-    line-height: 40px;
-    text-align: left;
   }
 
   .contactInfo {

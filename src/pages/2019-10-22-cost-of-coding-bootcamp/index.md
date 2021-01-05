@@ -12,7 +12,7 @@ When I was researching coding bootcamps, one of the scariest parts was the cost.
 
 My solution was to make spreadsheets. I put in the cost of each program, the salary the program suggested I could make on the other side, how much I had in savings, and how much income I could expect to make while learning. I decided what kind of debt I was comfortable with (for me, very little), and ultimately decided on a lower-cost flexible and remote program. But in hindsight (even though I was happy with my program), I realize that a six-month full career change is worth more than I originally imagined.
 
-<h2 className="blogSubtitle" align="left">Let's talk projected income for a minute.</h2>
+<h2 className="blogSubtitle" align="left">Let's talk projected income for a minute</h2>
 
 Glassdoor lists the average national income for the following job titles as follows: <br/>
 Technical Support Engineer: 63k <br/>
@@ -43,20 +43,20 @@ There were a couple of helpful links left in those Twitter poll threads, so you 
 
 Glassdoor also suggests that within 4-6 years as a software engineer, you should be expecting to make around 100k. Just something fun to keep in mind, in case you want to buy a boat someday or something.
 
-<h2 className="blogSubtitle" align="left">Doing the math.</h2>
+<h2 className="blogSubtitle" align="left">Doing the math</h2>
 
 I spent 14% of my starting annual salary on my bootcamp. That feels like a really small number to me if you think about it. Especially considering what I spent on a bachelor's degree, plus 7 years of work experience that got me to roughly the same income I have now. 6 months plus paying 14% of an annual salary vs 11 years plus 120% of an annual salary. That's a pretty quick return on investment.
 
-<h2 className="blogSubtitle" align="left">Benefits count too.</h2>
+<h2 className="blogSubtitle" align="left">Benefits count too</h2>
 
 Tech companies (in the US, can't speak for elsewhere) that have gotten past their start-up phase can have pretty solid benefits. They want to attract top talent, and know that people care about benefits ranging from healthcare and 401k to free lunches and PTO. Don't be afraid to ask about those things in a job interview, because the cost of those benefits will add up to increase your salary. Right now, I have the benefit of getting medical and dental covered at 100%. I might as well add another 5k onto my salary.
 
-<h2 className="blogSubtitle" align="left">The priceless stuff.</h2>
+<h2 className="blogSubtitle" align="left">The priceless stuff</h2>
 
 I was really unhappy at my last job. I had no work/life balance, I felt underappreciated and overworked, and that unhappiness trickled out into the rest of my life. I took a bit of a pay cut to change careers and it could not have been more worth it.
 
 Also realize that many tech companies are allowing more and more employees to work remotely, either part-time or full-time. How much is that worth to you? How much would that save you on gas, parking, or childcare?
 
-<h2 className="blogSubtitle" align="left">To sum up.</h2>
+<h2 className="blogSubtitle" align="left">To sum up</h2>
 
 It's worth it (one woman's opinion). I could have spent twice as much on my bootcamp as I did and it still would have been worth it. Spending a lot of money can be scary, but if you really look at the cost/benefit analysis, it's a worthwhile investment.

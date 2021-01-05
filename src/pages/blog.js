@@ -5,7 +5,6 @@ import Post from '../components/Post';
 
 const Blog = ({ data }) => (
   <Layout>
-    <h1>Blog</h1>
     <section className='allBlogPosts'>
       {data.allMarkdownRemark.edges.map((post) => {
         const {

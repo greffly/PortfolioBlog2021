@@ -1,15 +1,21 @@
+.aboutPage {
+  line-height: 1.3em;
+  padding: 3% 0%;
+  margin-top: 5%;
+}
+
 .aboutSection {
-  padding: 2%;
+  padding: 2% 4%;
   background-color: white;
-  margin: 3%;
+  margin: 5%;
   text-align: left;
 }
 
 .talkSection,
 .podcastSection {
   display: grid;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: 80px auto;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 50px auto;
   margin-bottom: 20px;
 }
 
@@ -18,7 +24,7 @@
   font-size: 1.4em;
   color: var(--mustard);
   text-align: right;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .aboutList {
@@ -26,11 +32,11 @@
   grid-row: 1 / span 2;
   display: flex;
   flex-direction: column;
-  font-size: 0.8em;
+  padding-left: 10%;
 }
 
 .aboutList li {
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .underline {
@@ -50,13 +56,34 @@
   transition: width 0.4s;
 }
 
-#contact {
-  font-size: 1.4em;
-  color: black;
-  margin-top: 100px;
-}
+@media screen and (min-width: 760px) {
+  .aboutPage {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 3% 8%;
+  }
 
-.reachOutBlurb {
-  font-size: 0.8em;
-  padding: 0 8%;
+  .aboutSection {
+    margin: 3%;
+  }
+
+  .aboutTitle {
+    margin-top: 25px;
+    font-size: 1.8em;
+  }
+
+  .aboutList {
+    padding-left: 15%;
+    font-size: 1em;
+  }
+
+  .aboutList li {
+    margin: 15px 0;
+  }
+
+  .talkSection,
+  .podcastSection {
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 80px auto;
+  }
 }

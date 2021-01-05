@@ -32,7 +32,12 @@ export default function Template({ data }) {
         <a href={twitterLink} target='_blank' rel='noreferrer'>
           Share this post on Twitter{' '}
         </a>
-        if you thought it was pretty cool.
+        if you are so inclined!
+      </div>
+      <div className='backLink'>
+        <Link to='/blog' className='backToBlogsBottom'>
+          Back to all blogs
+        </Link>
       </div>
     </Layout>
   );

@@ -1,17 +1,13 @@
 .blogTemplate {
-  padding: 5% 14%;
+  padding: 5% 10%;
 }
 
 .backToBlogs {
   position: absolute;
-  top: 110px;
-  left: 25px;
+  top: 70px;
+  left: 15px;
   font-size: 1.1em;
   color: var(--purple);
-}
-
-.backToBlogs:hover {
-  color: var(--mainTeal);
 }
 
 .blogTemplateTitle {
@@ -44,20 +40,72 @@
 
 .blogBody h2 {
   margin: 0 0 2%;
-  font-size: 28px;
+  font-size: 1.6em;
 }
 
 .blogBody img {
   display: block;
-  margin: 0 auto 20px;
+  margin: 0 auto 10px;
 }
 
 .share {
   text-align: center;
   font-size: 1.3em;
   margin-bottom: 50px;
+  padding: 0 10%;
+}
+
+.share a {
+  color: var(--purple);
 }
 
 .share a:hover {
   color: var(--mainTeal);
+}
+
+.backLink {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.backToBlogsBottom {
+  color: white;
+  width: auto;
+  height: 43px;
+  padding: 10px;
+  font-size: 1.3em;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--mainTeal);
+}
+
+@media screen and (min-width: 760px) {
+  .blogTemplate {
+    padding: 5% 14%;
+  }
+
+  .backToBlogs {
+    position: absolute;
+    top: 110px;
+    left: 25px;
+    font-size: 1.1em;
+    color: var(--purple);
+  }
+
+  .backToBlogs:hover {
+    color: var(--mainTeal);
+  }
+
+  .blogBody h2 {
+    margin: 0 0 2%;
+    font-size: 2em;
+  }
+
+  .blogBody img {
+    margin: 0 auto 20px;
+  }
+
+  .backToBlogsBottom {
+    padding: 15px;
+  }
 }
