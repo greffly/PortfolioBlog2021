@@ -40,18 +40,17 @@ function About() {
                 >
                   An Intro to AWS
                 </a>{' '}
-                for Collab Lab, an non-profit that helps early career
-                developers.
+                for Collab Lab, a non-profit that helps early-career developers.
               </li>
               <li>
-                I lead and spoke on a panel at the 2020 ACT-W about{' '}
+                I led and spoke on a panel at the 2020 ACT-W about{' '}
                 <a
                   href='https://plus.act-w.org/act-w-2020-transitioning-into-a-dev-job-from-less-traditional-pathways'
                   className='speakerLinks'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  Transitioning Into a Dev Job from Less Tradtitional Pathways.
+                  Transitioning Into a Dev Job from Less Traditional Pathways.
                 </a>
               </li>
               <li>
