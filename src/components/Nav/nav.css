@@ -66,7 +66,7 @@
 }
 
 .menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   opacity: 1;
@@ -167,7 +167,7 @@ ul {
     height: 80px;
     margin: 0;
     font-size: 1em;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     visibility: visible;
