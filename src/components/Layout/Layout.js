@@ -12,6 +12,7 @@ import './layout.css';
 const Layout = ({ children }) => (
   <div className='layout'>
     <Helmet>
+      <html lang='en' />
       <title>Caitlyn Greffly</title>
       <meta
         name='Title'
