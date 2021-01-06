@@ -65,13 +65,14 @@
 
 @media screen and (min-width: 760px) {
   #about {
-    padding-top: 1%;
+    padding-top: 7%;
   }
 
   .aboutPage {
     font-size: 1.1em;
     line-height: 1.5em;
     padding: 3% 8%;
+    margin-top: 0;
   }
 
   .aboutSection {

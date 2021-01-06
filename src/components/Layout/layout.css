@@ -59,10 +59,9 @@ hr {
 .homePage {
   height: 100vh;
   background-image: url('/images/geo.jpeg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 80%;
   position: relative;
   z-index: -1;
 }
@@ -120,8 +119,7 @@ hr {
   }
 
   .homePage {
-    background-repeat: repeat;
-    background-size: 100%;
+    background-size: 80%;
   }
 
   .titleSection {
