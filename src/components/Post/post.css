@@ -7,7 +7,7 @@
 }
 
 .postTitle {
-  font-size: 2em;
+  font-size: 1.8em;
   margin: 0;
 }
 
@@ -37,13 +37,11 @@
 
 .postDescription {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.1em;
   line-height: 1.2em;
 }
 
 .postDate {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.1em;
 }
 
 .post a {
@@ -83,5 +81,9 @@
     overflow: hidden;
     background-color: white;
     text-align: left;
+  }
+
+  .post a {
+    padding: 8px 0;
   }
 }

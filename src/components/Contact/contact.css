@@ -3,16 +3,10 @@
   padding: 3% 8%;
   margin-top: 5%;
   text-align: left;
-}
-
-#contact {
-  font-size: 1.8em;
   color: black;
-  margin-top: 10px;
 }
 
 .reachOutBlurb {
-  font-size: 1em;
   padding: 0 8%;
 }
 
@@ -22,16 +16,11 @@
 
 @media screen and (min-width: 760px) {
   .contactSection {
-    margin-top: 0;
-  }
-
-  #contact {
-    font-size: 2.15em;
     margin: 25px 0 50px;
   }
 
   .reachOutBlurb {
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.5em;
     padding: 0 8%;
   }

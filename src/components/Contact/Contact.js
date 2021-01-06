@@ -5,8 +5,8 @@ function Contact() {
   const [showEmail, setShowEmail] = useState(false);
 
   return (
-    <div className='contactSection'>
-      <h2 id='contact'>Get in Touch</h2>
+    <div className='contactSection' id='contact'>
+      <h2 className='contactTitle'>Get in Touch</h2>
       <p className='reachOutBlurb'>
         I'm always happy to talk, partially because I'm passionate about tech
         and alternate career paths, and partially because I am a social
