@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Nav from './Nav';
-import Footer from './Footer';
+import Nav from '../Nav/Nav';
+import Footer from '../Footer/Footer';
 import { Helmet } from 'react-helmet';
 import 'fontsource-raleway/300.css';
 import 'fontsource-bellota-text/300.css';

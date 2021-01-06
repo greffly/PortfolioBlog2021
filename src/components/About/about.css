@@ -39,6 +39,10 @@
   margin: 10px 0;
 }
 
+.speakerLinks {
+  color: var(--mainTeal);
+}
+
 .underline {
   grid-column: 1;
   background: var(--mustard);
@@ -79,6 +83,10 @@
 
   .aboutList li {
     margin: 15px 0;
+  }
+
+  .speakerLinks:hover {
+    color: black;
   }
 
   .talkSection,

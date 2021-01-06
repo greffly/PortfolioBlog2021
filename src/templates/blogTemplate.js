@@ -1,8 +1,6 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
-
-import Layout from '../components/Layout';
-
+import Layout from '../components/Layout/Layout';
 import './blogTemplate.css';
 
 export default function Template({ data }) {

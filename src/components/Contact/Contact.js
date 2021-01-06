@@ -13,17 +13,14 @@ function Contact() {
         extrovert. If you'd like to chat about what it's like to go through a
         bootcamp, ask me to speak at an event or on a podcast, or you just want
         to say hey - send me{' '}
-        <a href='#!' onClick={() => setShowEmail(true)}>
+        <a href='#!' className='contactLink' onClick={() => setShowEmail(true)}>
           an email
         </a>{' '}
-        {showEmail ? (
-          <span className='emailAddress'>at cgreffly@gmail.com </span>
-        ) : (
-          ''
-        )}
+        {showEmail ? <span>at cgreffly@gmail.com </span> : ''}
         or shoot me a message on{' '}
         <a
           href='https://twitter.com/thecaitcode'
+          className='contactLink'
           target='_blank'
           rel='noreferrer'
         >

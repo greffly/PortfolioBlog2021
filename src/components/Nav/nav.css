@@ -158,47 +158,8 @@ ul {
 }
 
 @media screen and (min-width: 760px) {
-  .menu {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    opacity: 1;
-  }
-
-  .navigationBar {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    background: #17686e;
-    color: #fff;
-  }
-
-  .navItem {
-    font-size: 1.1em;
-  }
-
-  ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0;
-  }
-
-  .navigationBar a {
-    color: white;
-    text-decoration: none;
-  }
-
-  .menuButton,
-  .navBarMobile {
-    visibility: hidden;
+  #nav-line {
+    margin-top: 90px;
   }
 
   .menu {
@@ -212,19 +173,31 @@ ul {
     visibility: visible;
     z-index: 99;
     transform: none;
+    animation: none;
   }
 
   .navigationBar {
+    background-color: var(--mainTeal);
+    width: 100%;
+    height: 90px;
+    margin: 0;
     padding: 0;
     display: flex;
-    height: 90px;
-    width: 100vw;
-    background-color: #17686e;
     flex-direction: row;
-    overflow: none;
-    background-attachment: fixed;
-    transform: none;
     flex-flow: unset;
+    justify-content: center;
+    color: #fff;
+    animation: none;
+    transform: none;
+  }
+
+  .navItem {
+    font-size: 1.1em;
+  }
+
+  .menuButton,
+  .navBarMobile {
+    visibility: hidden;
   }
 
   .menu .navItem {
@@ -232,12 +205,7 @@ ul {
     transform: translate3d(0, 0, 0);
   }
 
-  .menuButton,
   .menuButton .btn-line {
     transition: none;
-  }
-
-  #nav-line {
-    margin-top: 90px;
   }
 }

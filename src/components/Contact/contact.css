@@ -16,6 +16,10 @@
   padding: 0 8%;
 }
 
+.contactLink {
+  color: var(--purple);
+}
+
 @media screen and (min-width: 760px) {
   .contactSection {
     margin-top: 0;
@@ -30,5 +34,9 @@
     font-size: 1.2em;
     line-height: 1.5em;
     padding: 0 8%;
+  }
+
+  .contactLink:hover {
+    color: var(--mainTeal);
   }
 }

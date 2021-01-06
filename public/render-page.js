@@ -118,7 +118,7 @@ var plugins = [{
     "background_color": "#663399",
     "theme_color": "#663399",
     "display": "minimal-ui",
-    "icon": "/Users/hippobu/Projects/Portfolio/NewPortfolio/src/images/favicon.png"
+    "icon": "src/images/favicon.png"
   }
 }]; // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
