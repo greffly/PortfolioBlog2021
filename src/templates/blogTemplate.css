@@ -8,6 +8,7 @@
   left: 15px;
   font-size: 1.1em;
   color: var(--purple);
+  z-index: 2;
 }
 
 .blogTemplateTitle {

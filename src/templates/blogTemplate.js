@@ -27,10 +27,10 @@ export default function Template({ data }) {
         />
       </div>
       <div className='share'>
+        Liked this post? Want to shit talk this post?{' '}
         <a href={twitterLink} target='_blank' rel='noreferrer'>
-          Share this post on Twitter{' '}
+          Share it on Twitter!
         </a>
-        if you are so inclined!
       </div>
       <div className='backLink'>
         <Link to='/blog' className='backToBlogsBottom'>
