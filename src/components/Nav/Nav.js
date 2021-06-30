@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import './nav.css';
-import ResumePdf from './CaitlynGrefflyResume.pdf';
+import ResumePdf from './CaitlynGrefflySoftwareEngineerResume.pdf';
 
 class Nav extends React.Component {
   constructor(props) {
